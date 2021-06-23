@@ -10,6 +10,7 @@ fn files_test2() {
 }
 
 #[test]
+#[ignore]
 fn process_test1() {
     assert!(true);
 }
