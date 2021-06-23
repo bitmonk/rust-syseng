@@ -10,5 +10,5 @@ fn get_process_id() -> u32 {
 
 #[test]
 fn test_if_process_id_is_returned() {
-    assert!(get_process_id() > 0);
+    assert_ne!(get_process_id(), 0, "Invalid or no pid returned");
 }
